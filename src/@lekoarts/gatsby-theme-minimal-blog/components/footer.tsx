@@ -21,21 +21,23 @@ const Footer = () => {
       }}
     >
       <div>
-        &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.
+        &copy; 2020 by Gabriele Herr. All rites reserved.
       </div>
       <div>
         <Link
           aria-label="Link to the theme's GitHub repository"
           href="https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog"
-        >
+        target="_blank">
           Theme
         </Link>
         {` `}
         by
         {` `}
-        <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
+        <Link aria-label="Link to the theme author's website" 
+        href="https://www.lekoarts.de/en" target="_blank">
           LekoArts
         </Link>
+         {' '}(and tinkered by Gabriele)
       </div>
     </footer>
   )
